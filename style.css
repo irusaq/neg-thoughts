@@ -13,7 +13,7 @@ main {
 
 .img {
   max-width: 100%;
-  max-height: 65vh; /* reduce size so it's always visible */
+  max-height: 80vh; /* keep it from overflowing small screens */
   width: auto;
   height: auto;
   position: absolute;
