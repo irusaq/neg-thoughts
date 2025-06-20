@@ -12,16 +12,14 @@ main {
 }
 
 .img {
-  max-width: 100vw;
-  max-height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
   width: auto;
   height: auto;
-  display: block;
-  margin: auto;
   position: absolute;
-  top: 50%;
+  bottom: 1rem; /* distance from bottom */
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%); /* only shift horizontally */
 }
 
 #thought {
