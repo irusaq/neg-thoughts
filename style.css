@@ -13,13 +13,20 @@ main {
 
 .img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 80vh;
   width: auto;
   height: auto;
   position: absolute;
-  bottom: 1rem; /* distance from bottom */
+  bottom: 5vh; /* more natural on phones */
   left: 50%;
-  transform: translateX(-50%); /* only shift horizontally */
+  transform: translateX(-50%);
+}
+
+@media (max-width: 600px) {
+  .img {
+    max-height: 60vh;
+    bottom: 6vh;
+  }
 }
 
 #thought {
