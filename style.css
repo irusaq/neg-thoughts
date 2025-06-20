@@ -13,13 +13,13 @@ main {
 
 .img {
   max-width: 100%;
-  max-height: 75vh; /* slightly smaller */
+  max-height: 65vh; /* reduce size so it's always visible */
   width: auto;
   height: auto;
   position: absolute;
-  bottom: 2.5rem; /* more consistent spacing across devices */
+  bottom: 6rem; /* lift higher */
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-10%);
 }
 
 @media (max-width: 600px) {
