@@ -13,19 +13,19 @@ main {
 
 .img {
   max-width: 100%;
-  max-height: 80vh;
+  max-height: 75vh; /* slightly smaller */
   width: auto;
   height: auto;
   position: absolute;
-  bottom: 5vh; /* more natural on phones */
+  bottom: 2.5rem; /* more consistent spacing across devices */
   left: 50%;
   transform: translateX(-50%);
 }
 
 @media (max-width: 600px) {
   .img {
-    max-height: 60vh;
-    bottom: 6vh;
+    bottom: 4rem; /* lift image more on phones */
+    max-height: 70vh;
   }
 }
 
